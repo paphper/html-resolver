@@ -1,0 +1,27 @@
+{
+    "name": "paphper/html-resolver",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naren",
+            "email": "developer.naren@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Paphper\\" : "src/",
+            "Tests\\" : "tests/"
+        },
+        "files": [
+            "index.php"
+        ]
+    },
+    "require": {
+        "php": "^7.3",
+        "paphper/core": "0.0.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
